@@ -1,3 +1,15 @@
+Hi ,
+
+I'm SAKTHIDASS from FSR020923 batch,
+this my first react project for assignment 3,
+
+this is a  simple movie app using react
+
+
+THANK YOU,
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
