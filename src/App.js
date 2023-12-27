@@ -23,19 +23,25 @@ class App extends Component {
 
   render() {
     let cardArr = this.state.api.Search;
-    // console.log(this.state.loader);
     return (
       <div>
-        <h1 styles="color:white;"> MOVIES APP</h1>
+        <h1 className={styles.bigblue}> MOVIES APP</h1>
         <div className={styles.Main}>
           {this.state.loader ? (
             <img src={loaderimg} alt="Loading...." />
           ) : (
             <div className={styles.CardGrid}>
               {cardArr ? cardArr.map((item) => <Card props={item} />) : null}
+              
             </div>
           )}
         </div>
+        <footer className={styles.footer}>
+          <h4>Movies App</h4>© Hollywood movies, 2023
+          <br />
+          <span>Download Now with faster speed </span>
+          <br></br> All Rights Reserved.
+        </footer>
       </div>
     );
   }
